@@ -15,6 +15,8 @@ $color--primary: #f9faf8;
 $color--primary-light: #e5e7eb;
 $color--btn: #3882f6;
 
+$transition-main: all .4s ease-in-out;
+
 
 .container {
     width: 800px;
@@ -26,3 +28,10 @@ a {
     color: inherit;
     font-size: inherit;
 }
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -10,7 +10,16 @@ body {
  
 }
 
-$color--bg:#1f2937;
+$color--secondry:#1f2937;
+$color--primary: #f9faf8;
+$color--primary-light: #e5e7eb;
+$color--btn: #3882f6;
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
 
 a {
     text-decoration: none;

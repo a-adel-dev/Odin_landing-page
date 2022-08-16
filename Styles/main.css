@@ -46,7 +46,7 @@ main {
   margin-bottom: 2rem;
 }
 .hero .hero-left .btn {
-  width: 100px;
+  width: 120px;
   height: 35px;
   border-radius: 5px;
   background-color: #3882f6;
@@ -166,4 +166,51 @@ header .container .logo {
 .quote-section .container .signature {
   align-self: flex-end;
   font-weight: 900;
+}
+
+footer {
+  height: 250px;
+  padding: 80px;
+}
+footer .cta-card {
+  background-color: #3882f6;
+  border-radius: 5px;
+  height: 110px;
+  padding: 0 40px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+footer .cta-card .cta-card--left {
+  flex: 3;
+}
+footer .cta-card .cta-card--left h3 {
+  font-weight: 900;
+}
+footer .cta-card .cta-card--left p {
+  font-weight: 300;
+}
+footer .cta-card .cta-card--right {
+  flex: 1;
+}
+footer .cta-card .cta-card--right .btn {
+  width: 120px;
+  height: 35px;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  margin: auto;
+  transition: all 0.4s ease-in-out;
+}
+footer .cta-card .cta-card--right .btn a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .cta-card .cta-card--right .btn:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=main.css.map */

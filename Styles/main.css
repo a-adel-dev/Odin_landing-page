@@ -98,6 +98,7 @@ header .container .logo {
 }
 .links li:hover {
   background-color: #1f4060;
+  transition: all 0.4s ease-in-out;
 }
 
 .info {
@@ -135,9 +136,34 @@ header .container .logo {
 .info-box .cards .card .img-container img {
   width: 100%;
   height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.info-box .cards .card .img-container img:hover {
+  transform: scale(1.1);
 }
 .info-box .cards .card p {
   font-weight: 300;
   font-size: 0.8rem;
   text-align: center;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  height: 400px;
+}
+.quote-section .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.quote-section .container .quote {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+}
+.quote-section .container .signature {
+  align-self: flex-end;
+  font-weight: 900;
 }/*# sourceMappingURL=main.css.map */

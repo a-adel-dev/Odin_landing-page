@@ -40,6 +40,7 @@ header{
     }
     li:hover {
         background-color: #1f4060;
+        transition: $transition-main;
     }
 }
 
@@ -76,6 +77,10 @@ header{
                 img{
                    width: 100%; 
                    height: 100%;
+                   transition: $transition-main;
+                   &:hover {
+                    transform: scale(1.1);
+                   }
                 }
             }
             p {
@@ -85,6 +90,27 @@ header{
                 text-align: center;
             }
             
+        }
+    }
+}
+
+.quote-section{
+    background-color: $color--primary-light;
+    height: 400px;
+    .container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        gap: 20px;
+        .quote {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 36px;
+        }
+        .signature {
+            align-self: flex-end;
+            font-weight: 900;
         }
     }
 }
